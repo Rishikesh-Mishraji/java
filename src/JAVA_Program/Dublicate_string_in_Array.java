@@ -10,7 +10,7 @@ public class Dublicate_string_in_Array {
 	 {
 		 for(int j=i+1;j<aaa.length;j++)
 		 {
-			 if(aaa[i]==aaa[j])
+			 if(aaa[i].equals(aaa[j]))
 			 {
 			 System.out.println("Dublicate value from the array : "+aaa[i]);
 			 flag=true;
